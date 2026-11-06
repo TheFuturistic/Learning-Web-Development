@@ -1,0 +1,17 @@
+{
+  "name": "To do",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": " to do application which manages task",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "type": "module"
+}
