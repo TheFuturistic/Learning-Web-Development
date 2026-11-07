@@ -1,0 +1,117 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+section h2 {
+  color: #004aad;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  border: 1px solid #004aad;
+  padding: 10px;
+}
+
+th {
+  background-color: #004aad;
+  color: white;
+}
+
+.project-box {
+  border: 1px solid #ccc;
+  width: 50%;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+form table {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #004aad;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #004aad;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003380;
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid #ddd;
+  margin: 20px 0;
+}
+
+
+#backToTop {
+  display: block;
+  text-align: center;
+  background-color: #004aad;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 5px;
+}
+
+#backToTop:hover {
+  background-color: #003380;
+}
